@@ -1,10 +1,10 @@
 import { Component } from 'react';
+import { nanoid } from 'nanoid';
+import { Notify } from 'notiflix';
 import { Section } from './Section/Section';
 import { Form } from './Form/Form';
 import { Search } from './Search/Search';
 import { Contacts } from './Contacts/Contacts';
-import { nanoid } from 'nanoid';
-import { Notify } from 'notiflix';
 import { StyledDiv } from './App.styled';
 // import { findRenderedDOMComponentWithClass } from 'react-dom/test-utils';
 
